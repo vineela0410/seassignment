@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Image, Button, Form } from 'react-bootstrap';
 const Profile = () => {
-    const [title, setTitle] = useState("James Smith");
+    const [title, setTitle] = useState("Vineela Reddy Tekula");
     const [description, setDescription] = useState(
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin, tellus non congue commodo, libero sapien faucibus libero, eu egestas lacus magna id ligula. Aliquam erat volutpat. Nulla vel velit vel nibh rutrum luctus. Nunc malesuada nulla a diam laoreet, in aliquet metus suscipit."
+        "I am pursing my masters in computer science. I have taken Software Engineering in my 2nd semester. This is my 1st assignment."
     );
-    const [imageSrc, setImageSrc] = useState("https://via.placeholder.com/400x300");
+    const [imageSrc, setImageSrc] = useState("displaypic.jpeg");
     const [isEditing, setIsEditing] = useState(false);
 
     const handleDescriptionChange = (event) => {
@@ -14,9 +14,7 @@ const Profile = () => {
     const handleTitleChange = (event) => {
         setTitle(event.target.value);
     };
-    const handleImageChange = (event) => {
-        setImageSrc(event.target.value);
-    };
+   
 
     const handleEditClick = () => {
         setIsEditing(true);
@@ -32,11 +30,7 @@ const Profile = () => {
               
                 <Col md={6}>
                     {isEditing ? (
-                        <Form.Control
-                            type="text"
-                            value={imageSrc}
-                            onChange={handleImageChange}
-                        />
+                       <></>
                     ) : (
                         <Image src={imageSrc} fluid />
                     )}
