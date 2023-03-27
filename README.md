@@ -12,7 +12,9 @@ Thank you.
 https://github.com/vineela0410/seassignment
 https://github.com/vineela0410/githublearning
 http://ec2-54-160-86-27.compute-1.amazonaws.com:5000
-assignmentn 2
+
+
+assignment 2
 
 Repository Link : https://github.com/vineela0410/seassignment
 
