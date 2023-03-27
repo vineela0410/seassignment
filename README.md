@@ -12,3 +12,10 @@ Thank you.
 https://github.com/vineela0410/seassignment
 https://github.com/vineela0410/githublearning
 http://ec2-54-160-86-27.compute-1.amazonaws.com:5000
+assignmentn 2
+
+Repository Link : https://github.com/vineela0410/seassignment
+
+	Web address : https://ec2-44-202-150-18.compute-1.amazonaws.com/127.0.0.1:5500/
+
+	Ip address of EC2 instance: 172.31.85.58
